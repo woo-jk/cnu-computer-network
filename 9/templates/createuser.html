@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <title>My Paste Bin - Create User</title>
+  <link rel="stylesheet" href="{{ url_for('mybp.static', filename='mystyle.css') }}" />
+  <body>
+    <div class="container">
+      <form action="createuser" method="post">
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" value="{{ username }}" required />
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required />
+
+        <button type="submit">Create User</button>
+      </form>
+    </div>
+  </body>
+</html>

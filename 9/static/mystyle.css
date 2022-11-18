@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+#pastes_container {
+  border-bottom: 1px solid gray;
+  padding: 15px;
+}
+
+#title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#content {
+  font-size: 24px;
+  font-weight: 500;
+}
